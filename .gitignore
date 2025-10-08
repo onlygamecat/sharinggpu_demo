@@ -1,0 +1,4 @@
+.vite
+.vscode
+backend_cpp/build
+backend_py/__pycache__
