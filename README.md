@@ -47,7 +47,6 @@ GET /stats、GET /gpus、GET /requests
 
 POST /requests、POST /requests/{rid}/match、POST /requests/{rid}/status
 在这里把请求参数/JSON 解析出来，调用 State 的方法完成业务，再把结果用 Utility 序列化成 JSON 返回。
-简单理解：Web 入口 + 参数校验 + 调用业务 + 组装响应。
 
 State.hpp / State.cpp（核心状态与业务逻辑 / 单例）
 持有并管理全部运行时数据：
