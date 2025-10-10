@@ -2,3 +2,5 @@
 .vscode
 backend_cpp/build
 backend_py/__pycache__
+backend_pycpp/py/__pycache__
+backend_pycpp/cpp/build

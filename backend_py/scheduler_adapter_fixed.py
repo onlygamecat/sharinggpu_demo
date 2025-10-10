@@ -13,7 +13,7 @@ class VirtualScheduler:
         self._total_users = seed_users  # 用于 PlatformStats.total_users
 
         # 1) 初始化一些虚拟 GPU
-        now = datetime.utcnow()
+        now = datetime.now()
         for name, mem, score, cc in [
             ("RTX 4090", 24, 100, "8.9"),
             ("A100 80G", 80, 120, "8.0"),

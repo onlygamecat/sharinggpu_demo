@@ -10,7 +10,7 @@ import random
 from models import GpuResource, ComputeRequest, PlatformStats
 
 REQUEST_INTERVAL_SEC = 10          # 每隔 N 秒生成一个新请求
-RUNTIME_SEC_RANGE = (20, 45)       # 运行时长范围（秒）——为了演示快一点
+RUNTIME_SEC_RANGE = (10, 25)       # 运行时长范围（秒）——为了演示快一点
 REQ_MEMORY_CHOICES = [4, 8, 12, 16]  # 新请求可能需要的显存(GB)
 REQ_DURATION_CHOICES = [15, 30, 45, 60, 90]  # 估计时长(分钟)
 REQ_PRIORITY_CHOICES = ["low", "normal", "high"]
